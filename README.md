@@ -31,7 +31,7 @@
 - **СУБД:** PostgreSQL 16 (БД Northwind)
 - **Драйвер БД:** psycopg2-binary 2.9.12
 - **VCS:** Git + GitHub
-- **IDE:** PyCharm Community Edition
+- **IDE:** IDLE (Python)
 
 ## Структура проекта
 NorthwindApp/
