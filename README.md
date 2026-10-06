@@ -62,3 +62,23 @@ NorthwindApp/
 | personnel | personnel1 | Отдел кадров |
 | manager | manager1 | Менеджер |
 | boss | boss1 | Начальник |
+
+
+## Документация
+
+### Анализ предметной области
+- [As-Is процесс](docs/bpmn/as_is.png)
+- [To-Be процесс](docs/bpmn/to_be.png)
+- [Функциональные требования](docs/requirements/functional.md)
+- [Нефункциональные требования](docs/requirements/non_functional.md)
+
+### Архитектура
+- [Контекстная диаграмма (C4 Level 1)](docs/architecture/context_diagram.png)
+- [Компоненты системы (C4 Level 2)](docs/architecture/components.png)
+
+### Модель данных
+- [ER-диаграмма БД Northwind](docs/data/er_diagram.png)
+- ER-диаграмма включает 6 ключевых сущностей: `customers`, `orders`, `order_details`, `products`, `categories`, `employees`. Модель нормализована до 3НФ.
+
+### Архитектурные решения
+- [ADR 001: Выбор СУБД — PostgreSQL](docs/adr/001_database_choice.md)
