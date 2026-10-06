@@ -67,7 +67,7 @@ NorthwindApp/
 ## Документация
 
 ### Анализ предметной области
-- [As-Is процесс](docs/bpmn/as_is.png)
+- [As-Is процесс](docs/bpmn/as_is.md)
 - [To-Be процесс](docs/bpmn/to_be.png)
 - [Функциональные требования](docs/requirements/functional.md)
 - [Нефункциональные требования](docs/requirements/non_functional.md)
