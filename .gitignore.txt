@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm / VS Code
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальные файлы
+*.whl
+*.log
+.env
+db_config_local.py
+
+# ОС
+.DS_Store
+Thumbs.db

@@ -82,3 +82,4 @@ NorthwindApp/
 
 ### Архитектурные решения
 - [ADR 001: Выбор СУБД — PostgreSQL](docs/adr/001_database_choice.md)
+Добавлена ветка для разработки архитектуры.
