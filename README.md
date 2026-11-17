@@ -89,3 +89,8 @@ NorthwindApp/
 - Проверка линтером: `py -m pylint *.py`
 - Запуск тестов: `py -m pytest`
 - Запуск тестов с покрытием: `py -m pytest --cov=. --cov-report=html`
+
+## Миграции и резервное копирование
+- Применить миграции: `py -m alembic upgrade head`
+- Создать бэкап: `"D:\PSQL\bin\pg_dump.exe" -U postgres -d NorthwindApp_Migrations -f backup.sql`
+- Восстановить бэкап: `"D:\PSQL\bin\psql.exe" -U postgres -d Northwind_Restore -f backup.sql`
